@@ -16,8 +16,17 @@ dbObj.dbQuery = {
     insert:(table,data) => {return `Insert into ${table} name,city Values (${data.name}, ${data.city})`}
 }
 
+// method;
+dbObj.addnum = function(a,b)
+{
+    return a+b;
+}
+
+//Arrow Method;
+dbObj.add = (x,y) =>{return x+y}
+
 //es5
-module.exports = dbObj
+// module.exports = dbObj
 
 //es6
-//export default dbObj;
+export default dbObj;

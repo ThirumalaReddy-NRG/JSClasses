@@ -8,7 +8,7 @@ info
 "name:Reddy and salary: 50000."
 info=`name ${name} and salary ${salary}.`
 "name Reddy and salary 50000."
------------------------
+
 var a =900;
 undefined
 if (a%2==0){
@@ -16,8 +16,8 @@ if (a%2==0){
 }else{
   console.log("odd");
 }
-OutPut: even
--------------------
+//OutPut: even
+
 var a =900;
 undefined
 if (a%2==0){
@@ -33,15 +33,15 @@ if (a%3==0){
 else{
 console.log(`${a} odd number`)
 }
-OutPut: 900 even number 
------------------
+//OutPut: 900 even number 
+
 var b="test";
 undefined
 if (b=="test"){
   console.log(`${b} is var not number`)
 }
-OutPut: test is var not number
- ---------------------
+//OutPut: test is var not number
+ 
 if (b=="test"){
   console.log(`${b} is var not number`)
 }else if{
@@ -49,6 +49,6 @@ if (b=="test"){
 }else{
   console.log(`${b} its a dummy`)
 }
-OutPut: test is var not number
+//OutPut: test is var not number
 
 ​
