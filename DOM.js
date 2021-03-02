@@ -4,7 +4,7 @@ document object model
 id
 tagname
 classname
-
+//from the website : aakashhanda.me, need to insept element on Name
 document.getElementsByTagName('h1')
 HTMLCollection [h1]
 document.getElementsByTagName('h1')[0]
